@@ -5,7 +5,7 @@ from sklearn.model_selection import train_test_split
 from collections import Counter
 
 # Define the base directory where images are stored
-data_dir = "D:\\Cancer Detection using ML\\Code\\Data augmented"
+data_dir = "path\\to\\folder"
 
 # Define class labels
 classes = {'Bengin case', 'Malignant case', 'Normal case'}
