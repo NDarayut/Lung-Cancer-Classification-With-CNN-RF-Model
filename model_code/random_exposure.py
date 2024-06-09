@@ -54,8 +54,8 @@ def process_images(input_folder, output_folder):
             print(f'Processed and saved: {filename}')
 
 # Define input and output folders
-input_folder = 'D:\\Cancer Detection using ML\\Code\\Data_augmented_v3\\aug'
-output_folder = 'D:\\Cancer Detection using ML\\Code\\Data_augmented_v3\\aug'
+input_folder = 'path/to/folder'
+output_folder = 'path/to/folder'
 
 # Process the images
 process_images(input_folder, output_folder)
