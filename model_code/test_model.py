@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 import random
 
 
-feature_extractor = load_model("model_saved\custom_cnn_feature_extractor_final.h5")
-classification_model = joblib.load("model_saved\RF_model_final.pkl")
+feature_extractor = load_model("final_model\custom_cnn_feature_extractor_final.h5")
+classification_model = joblib.load("final_model\RF_model_final.pkl")
 
 def accuracy(Y_pred, Y):
     return np.sum( Y_pred == Y) / Y.size
