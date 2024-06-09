@@ -6,8 +6,8 @@ import os
 import numpy as np
 import joblib
 
-feature_extractor = load_model("D:\\Cancer Detection using ML\\Code\\model_saved\\final_model\\custom_cnn_feature_extractor_finale.h5")
-classification_model = joblib.load("D:\\Cancer Detection using ML\\Code\\model_saved\\final_model\\RF_model_finale.pkl")
+feature_extractor = load_model("\\final_model\\custom_cnn_feature_extractor_finale.h5")
+classification_model = joblib.load("\\final_model\\RF_model_finale.pkl")
 
 app = Flask(__name__, static_url_path='/static')
 
