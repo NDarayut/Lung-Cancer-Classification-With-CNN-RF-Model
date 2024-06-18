@@ -28,11 +28,8 @@ for class_name in classes:
 
         # Load the image using OpenCV or PIL (adjust as needed)
         image = cv2.imread(image_path)  # Replace with your preferred image loading function
-        #image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
         image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-        #image = cv2.cvtColor(image, cv2.IMREAD_GRAYSCALE)
         image = cv2.resize(image, (image_size, image_size))
-        #image = np.expand_dims(image, axis=-1)
         # Append the image and its corresponding label to the lists
         images.append(image)
         labels.append(class_name)
