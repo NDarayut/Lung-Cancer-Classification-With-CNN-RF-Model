@@ -3,8 +3,6 @@ Dataset can be found on [kaggle](https://www.kaggle.com/datasets/hamdallak/the-i
 Install virtual environment:<code>pip install virtualenv</code>  
 
 
-
-    
 Create virtual environment:<code>python<version> -m venv <virtual-environment-name></code>  
 Activate virtual environment:<code>.\virtual-environment-name\Scripts\Activate</code>  
 Install packages:<code>pip install -r requirements.txt </code>  
