@@ -3,6 +3,13 @@
     <head>
         <title>Lung Cancer Classification</title>
         <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+        <style>
+            .fixed-size-image {
+                width: 500px;
+                height: 500px;
+                object-fit: cover;
+            }
+        </style>
     </head>
 
     <body>
@@ -20,7 +27,7 @@
 
         {% if image %}
             <div class="text-center mt-3">
-                <img src="{{ url_for('static', filename='images/' ~ image) }}" alt="Uploaded Image" class="img-fluid" style="max-width: 50%;">
+                <img src="{{ url_for('static', filename='images/' ~ image) }}" alt="Uploaded Image" class="img-fluid fixed-size-image">
             </div>
            
         {% endif %}
