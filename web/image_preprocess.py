@@ -10,7 +10,7 @@ def preprocess(image_path):
     classes = {'Bengin case': 0, 'Malignant case': 1, 'Normal case': 2}
 
     # Define the size to which the image will be resized
-    image_size = 256
+    image_size = 224
 
     # Load the image using OpenCV
     image = cv2.imread(image_path)
