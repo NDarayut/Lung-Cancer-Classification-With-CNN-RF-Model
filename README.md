@@ -1,6 +1,6 @@
 Dataset can be found on [kaggle](https://www.kaggle.com/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset)   
 <h2>How to setup</h2>  
-Install virtual environment: ```$pip install virtualenv```  
+Install virtual environment: ```$pip install virtualenv```   
 Create virtual environment:  ```$python<version> -m venv <virtual-environment-name>```  
 Activate virtual environment: ```$.\virtual-environment-name\Scripts\Activate```  
 Install packages: ```$pip install -r requirements.txt```  
