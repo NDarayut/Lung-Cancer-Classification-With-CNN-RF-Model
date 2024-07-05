@@ -21,6 +21,10 @@ def hello_world():
 def predict():
     if request.method == 'POST':
         imagefile = request.files['imagefile']
+        
+        if imagefile.filename == '':
+            return render_template('index.html', prediction='No file selected', image=None)
+            
         image_path = os.path.join(app.root_path, 'static\images', imagefile.filename)
         imagefile.save(image_path)
 
