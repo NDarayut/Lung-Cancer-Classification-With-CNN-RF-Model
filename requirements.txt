@@ -1,0 +1,8 @@
+numpy==1.26.4
+opencv-python==4.10.0.82
+Flask==3.0.3
+tensorflow==2.16.1
+keras==3.3.3
+joblib==1.4.2
+scikit-learn==1.2.2
+
