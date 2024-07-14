@@ -1,13 +1,7 @@
 import cv2
 import numpy as np
-import os
-
 
 def preprocess(image_path):
-
-    print(f"Image path: {image_path}")
-    # Define class labels
-    classes = {'Bengin case': 0, 'Malignant case': 1, 'Normal case': 2}
 
     # Define the size to which the image will be resized
     image_size = 224
