@@ -13,7 +13,7 @@ app = Flask(__name__, static_url_path='/static')
 
 @app.route('/', methods=['GET'])
 
-def hello_world():
+def index():
     return render_template('index.html')
 
 @app.route('/', methods=['POST'])
