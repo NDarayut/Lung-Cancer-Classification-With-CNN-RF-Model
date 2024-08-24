@@ -5,7 +5,7 @@ Dataset can be found on [kaggle](https://www.kaggle.com/datasets/hamdallak/the-i
 - Create virtual environment:<code>python(version) -m venv (virtual-environment-name)</code>  
 - Activate virtual environment:<code>.\virtual-environment-name\Scripts\Activate</code>  
 - Install packages:<code>pip install -r requirements.txt </code>  
-- Run program:<code>py app.py</code>  
+- Run program:<code>python app.py</code>  
 - Get address and paste in browser:<code>http://127.0.0.1:3000</code>  
 - Deactivate environment:<code>deactivate</code>  
 
