@@ -4,7 +4,7 @@ from PIL import Image, ImageOps
 import numpy as np
 
 def augment_image(image):
-    # Horizontal flip
+    # Horizontal flip with 50% chance of flipping occur
     if random.random() > 0.5:
         image = ImageOps.mirror(image)
 
