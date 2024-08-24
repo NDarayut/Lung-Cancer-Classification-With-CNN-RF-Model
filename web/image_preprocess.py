@@ -18,7 +18,9 @@ def preprocess(image_path):
     # If needed, expand the dimensions to match model input (batch_size, height, width, channels)
     image = np.expand_dims(image, axis=0)
 
+    # convert the pixel value into a numpy array for faster processing
     X = np.array(image)
+    # normalize the pixel scale to 0-1
     X = X / 255.
 
     return X
