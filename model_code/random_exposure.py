@@ -22,10 +22,8 @@ def augment_image(image):
     :param image: PIL Image object
     :return: Augmented image
     """
-    # Example: Apply random exposure
     image = random_exposure(image)
-    
-    # Additional augmentations can be added here (e.g., horizontal flip, rotation)
+
     return image
 
 def process_images(input_folder, output_folder):
