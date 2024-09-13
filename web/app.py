@@ -11,7 +11,7 @@ classification_model = joblib.load("\\final_model\\RF_model_finale.pkl")
 
 app = Flask(__name__, static_url_path='/static')
 
-@app.route('/', methods=['POST', 'GET])
+@app.route('/', methods=['POST', 'GET'])
 
 def predict():
     if request.method == 'GET':
