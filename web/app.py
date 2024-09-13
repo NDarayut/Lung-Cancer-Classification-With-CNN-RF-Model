@@ -27,7 +27,7 @@ def predict():
         imagefile.save(image_path)
 
         # preprocess image e.g np array and scaling
-        X = preprocess(image)
+        X = preprocess(image_path)
         # declare encoder for each target
         encode_label = {0:"Benign", 1:"Malignant", 2:"Normal"}
         
