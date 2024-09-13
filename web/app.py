@@ -1,4 +1,4 @@
-# For this to work, you must install: python==3.11.9
+# For this to work, you must install: python==3.11
 from flask import Flask, render_template, request
 from tensorflow.keras.models import load_model 
 from image_preprocess import preprocess
