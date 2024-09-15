@@ -35,5 +35,15 @@ Random Forest is an ensemble learning method that combines multiple decision tre
 - **Performance with Small Datasets**: Random Forest can perform well even with smaller datasets due to its inherent ability to generalize from limited samples. The aggregation of multiple trees helps to mitigate overfitting, making it a viable option when data is scarce.
 <h3>Implementation</h3>  
 In this model, Random Forest is used to classify lung cancer based on the features extracted by the CNN and any additional clinical data.  
+<h2>CNN-RF Model</h2>  
+Combining CNNs and Random Forests leverages the strengths of both models, creating a powerful hybrid approach:  
+
+- **CNN for Feature Extraction**: The CNN automatically learns and extracts high-level features from medical images, which are often complex and challenging to interpret.  
+- **Random Forest for Classification**: The Random Forest classifier utilizes the features extracted by the CNN along with other clinical data to make final classifications, improving accuracy and robustness.
+<h3>Benefits of the Hybrid Approach</h3>  
+
+- **Improved Accuracy**: The combination of deep learning and ensemble methods can enhance overall classification performance.  
+- **Robustness**: The hybrid model benefits from the strengths of both approaches, offering resilience to noise and outliers while effectively learning from limited data.  
+
 <h2>References</h2>   
 (alyasriy, hamdalla; AL-Huseiny, Muayed (2023), “The IQ-OTH/NCCD lung cancer dataset”, Mendeley Data, V4, doi: 10.17632/bhmdr45bh2.4)   
