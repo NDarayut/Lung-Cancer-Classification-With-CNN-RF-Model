@@ -33,7 +33,7 @@ Random Forest is an ensemble learning method that combines multiple decision tre
 - **Bootstrap Aggregating (Bagging)**: Each tree in the forest is trained on a bootstrap sample (random sampling with replacement) of the dataset, which helps to reduce variance and improve the overall model performance.
 - **Performance with Small Datasets**: Random Forest can perform well even with smaller datasets due to its inherent ability to generalize from limited samples. The aggregation of multiple trees helps to mitigate overfitting, making it a viable option when data is scarce.
 <h3>Implementation</h3>  
-In this model, Random Forest is used to classify lung cancer based on the features extracted by the CNN and any additional clinical data.  
+In this model, Random Forest is used to classify lung cancer based on the features extracted by the CNN.  
 <h2>CNN-RF Model</h2>  
 Combining CNNs and Random Forests leverages the strengths of both models, creating a powerful hybrid approach:  
 
