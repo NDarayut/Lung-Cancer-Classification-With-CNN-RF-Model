@@ -22,7 +22,6 @@ Convolutional Neural Networks are a class of deep learning models particularly e
 
 - **Feature Extraction**: CNNs learn to identify relevant features from images, such as edges, textures, and shapes.  
 - **Spatial Hierarchy**: By stacking multiple layers, CNNs can learn hierarchical representations, making them effective for complex image classification tasks.  
-- **Parameter Sharing**: Convolutional layers use shared weights, reducing the number of parameters and improving computational efficiency.
 <h3>Implementation</h3>  
 The CNN in this model is trained on medical images to extract relevant features that indicate the presence of malignant nodule. The CNN only act as a feature extractor and not a classifier.  
 <h2>Random Forest</h2>  
