@@ -38,7 +38,7 @@ In this model, Random Forest is used to classify lung cancer based on the featur
 Combining CNNs and Random Forests leverages the strengths of both models, creating a powerful hybrid approach:  
 
 - **CNN for Feature Extraction**: The CNN automatically learns and extracts high-level features from medical images, which are often complex and challenging to interpret.  
-- **Random Forest for Classification**: The Random Forest classifier utilizes the features extracted by the CNN along with other clinical data to make final classifications, improving accuracy and robustness.
+- **Random Forest for Classification**: The Random Forest classifier utilizes the features extracted by the CNN to make final classifications, improving accuracy and robustness.
 <h3>Benefits of the Hybrid Approach</h3>  
 
 - **Improved Accuracy**: The combination of deep learning and ensemble methods can enhance overall classification performance.  
