@@ -33,6 +33,8 @@ Combining CNNs and Random Forests leverages the strengths of both models, creati
 
 - **Improved Accuracy**: The combination of deep learning and ensemble methods can enhance overall classification performance.  
 - **Robustness**: The hybrid model benefits from the strengths of both approaches, offering resilience to noise and outliers while effectively learning from limited data.  
+<h2>Model Architecture</h2>  
+![cnn-rf architecture](https://github.com/user-attachments/assets/3db23671-f543-47f6-979d-aae5d7311953)
 
 <h2>How to setup</h2>  
 
