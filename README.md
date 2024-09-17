@@ -3,6 +3,7 @@ Notebook: [Google Colab](https://drive.google.com/file/d/1qzl51JJZ19glgs6r2TXPL3
 Note: Only works with python 3.11
 <h2>How to setup</h2>  
 
+- Clone this repository:<code>git clone https://github.com/NDarayut/Lung-Cancer-Classification-With-CNN-RF-Model.git</code>
 - Install virtual environment:<code>pip install virtualenv</code>
 - Create virtual environment:<code>python(version) -m venv (virtual-environment-name)</code>  
 - Activate virtual environment:<code>.\virtual-environment-name\Scripts\Activate</code>  
