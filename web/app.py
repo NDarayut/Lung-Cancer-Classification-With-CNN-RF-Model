@@ -6,6 +6,7 @@ import os
 import numpy as np
 import joblib
 
+# Load model from folders
 feature_extractor = load_model("\\final_model\\custom_cnn_feature_extractor_finale.h5")
 classification_model = joblib.load("\\final_model\\RF_model_finale.pkl")
 
@@ -14,15 +15,19 @@ app = Flask(__name__, static_url_path='/static')
 @app.route('/', methods=['POST', 'GET'])
 
 def predict():
+    # If client visit page, return only the html file
     if request.method == 'GET':
         return render_template('index.html')
         
+    # If client submit an image, we perform preprocessing and classification
     elif request.method == 'POST':
         imagefile = request.files['imagefile']
-        
+
+        # Prevent use from submitting without actually input image
         if imagefile.filename == '':
             return render_template('index.html', prediction='No file selected', image=None)
-            
+
+        # Save images into image folders
         image_path = os.path.join(app.root_path, 'static\images', imagefile.filename)
         imagefile.save(image_path)
 
@@ -70,9 +75,10 @@ def predict():
         plt.savefig(chart_path)
         plt.close()  # Close the plot to free memory
 
-        # Pass the chart image path to the HTML
+        # Pass the result, the submitted image and the chart image to HTML
         return render_template('index.html', prediction=classification, image=imagefile.filename, chart=f'images/chart.png')
 
 if __name__ == '__main__':
+    # Runs on port 3000
     app.run(port=3000, debug =True)
 
