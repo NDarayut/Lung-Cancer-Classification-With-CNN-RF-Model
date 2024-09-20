@@ -56,6 +56,10 @@ Combining CNNs and Random Forests leverages the strengths of both models, creati
 8. Deactivate environment:  
 <code>deactivate</code>  
 
+<h2>Demo</h2>  
+
+![0920](https://github.com/user-attachments/assets/7d1b4129-8785-489e-870a-e00523d8d710)
+
 
 <h2>References</h2>   
 (alyasriy, hamdalla; AL-Huseiny, Muayed (2023), “The IQ-OTH/NCCD lung cancer dataset”, Mendeley Data, V4, doi: 10.17632/bhmdr45bh2.4)   
