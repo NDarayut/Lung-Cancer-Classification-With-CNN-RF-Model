@@ -58,8 +58,7 @@ Combining CNNs and Random Forests leverages the strengths of both models, creati
 
 <h2>Demo</h2>  
 
-![0920](https://github.com/user-attachments/assets/7d1b4129-8785-489e-870a-e00523d8d710)
-
+![Gif demo video (1)](https://github.com/user-attachments/assets/d0105f75-59ae-4090-b72b-38ada84b2158)
 
 <h2>References</h2>   
 (alyasriy, hamdalla; AL-Huseiny, Muayed (2023), “The IQ-OTH/NCCD lung cancer dataset”, Mendeley Data, V4, doi: 10.17632/bhmdr45bh2.4)   
