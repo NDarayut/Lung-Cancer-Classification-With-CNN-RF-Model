@@ -1,6 +1,6 @@
 Dataset can be found on [kaggle](https://www.kaggle.com/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset)   
 Notebook: [Google Colab](https://drive.google.com/file/d/1qzl51JJZ19glgs6r2TXPL3mOHNOHfodG/view?usp=sharing)  
-Dataset that were used in this research: [Dataset](https://drive.google.com/drive/folders/1RxW7MIiroNeksh-AmE8uLSxF6UbX9mLl?usp=sharing)  
+Dataset that were used in this research: [Google drive](https://drive.google.com/drive/folders/1RxW7MIiroNeksh-AmE8uLSxF6UbX9mLl?usp=sharing)  
 Note: Only works with python 3.11
 
 <h2>Abstract </h2>   
