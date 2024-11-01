@@ -1,4 +1,4 @@
-Dataset can be found on [kaggle](https://www.kaggle.com/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset)   
+![CNN-RF-Schematic](https://github.com/user-attachments/assets/a00b48d0-202c-4575-b6f9-8d201613dc2a)Dataset can be found on [kaggle](https://www.kaggle.com/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset)   
 Notebook: [Google Colab](https://drive.google.com/file/d/1qzl51JJZ19glgs6r2TXPL3mOHNOHfodG/view?usp=sharing)  
 Dataset that were used in this research: [Google drive](https://drive.google.com/drive/folders/1RxW7MIiroNeksh-AmE8uLSxF6UbX9mLl?usp=sharing)  
 Note: Only works with python 3.11
@@ -36,7 +36,7 @@ Combining CNNs and Random Forests leverages the strengths of both models, creati
 - **Robustness**: The hybrid model benefits from the strengths of both approaches, offering resilience to noise and outliers while effectively learning from limited data.  
 <h2>Model Architecture</h2>  
 
-![cnn-rf architecture](cnn_rf_architecture.png)
+![cnn-rf architecture](CNN-RF-Schematic.png)
 
 <h2>How to setup</h2>  
 
